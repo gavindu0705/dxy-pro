@@ -1,7 +1,7 @@
-package com.dxy.artemis.mapper;
+package com.dxy.artemis.dao.mapper;
 
-import com.dxy.artemis.pojo.Product;
-import com.dxy.artemis.pojo.ProductExample;
+import com.dxy.artemis.dao.pojo.Product;
+import com.dxy.artemis.dao.pojo.ProductExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

@@ -10,9 +10,10 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>../../builds/pirlo/artemis-pirlo-dao</module>
-        <module>../../builds/pirlo/artemis-common</module>
-        <module>../../builds/pirlo/artemis-pirlo-service</module>
+		<module>../../artemis-pro/artemis-common</module>
+        <module>../../artemis-pro/artemis-pirlo-dao</module>
+        <module>../../artemis-pro/artemis-pirlo-service</module>
+		<module>../../artemis-pro/artemis-pirlo-web</module>
     </modules>
 
 

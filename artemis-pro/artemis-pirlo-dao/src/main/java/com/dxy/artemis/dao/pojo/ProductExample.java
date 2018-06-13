@@ -1,4 +1,4 @@
-package com.dxy.artemis.pojo;
+package com.dxy.artemis.dao.pojo;
 
 import java.util.ArrayList;
 import java.util.Date;
