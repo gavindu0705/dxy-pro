@@ -1,9 +1,6 @@
-﻿*.classpath
-*.project
-*.log
-*.psf
-*.class
-*/target
-.metadata
+﻿/target/
+/.settings
+.classpath
+.project
 *.iml
-.idea/
+.idea
