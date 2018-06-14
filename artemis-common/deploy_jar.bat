@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=target\artemis-common-0.0.1-SNAPSHOT.jar -DgroupId=com.dxy.artemis -DartifactId=artemis-common -Dversion=0.0.1-SNAPSHOT -Dpackaging=jar
