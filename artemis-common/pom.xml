@@ -6,7 +6,7 @@
 
     <artifactId>artemis-common</artifactId>
     <groupId>com.dxy.artemis</groupId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <packaging>jar</packaging>
 
     <dependencies>
@@ -51,6 +51,9 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.7.0</version>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                </configuration>
             </plugin>
             <!--配置生成Javadoc包-->
             <plugin>
