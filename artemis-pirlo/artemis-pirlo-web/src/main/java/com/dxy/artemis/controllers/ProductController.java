@@ -19,8 +19,13 @@ public class ProductController {
     @Autowired
     ProductService productService;
 
+    @RequestMapping(value = "/index")
+    public void index() {
+
+    }
+
     @RequestMapping(value = "/list")
-    public void index(ModelMap modelMap, String name) {
+    public void list(ModelMap modelMap, String name) {
         DateUtil.format(new Date());
         List<Product> list = productService.findProducts();
         System.out.println(list.size());
