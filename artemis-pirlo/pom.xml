@@ -21,6 +21,7 @@
     </properties>
     <modules>
         <module>artemis-pirlo-dao</module>
+        <module>artemis-pirlo-batch</module>
         <module>artemis-pirlo-service</module>
 		<module>artemis-pirlo-web</module>
     </modules>

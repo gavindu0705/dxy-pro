@@ -2,12 +2,14 @@ package com.dxy.artemis.controllers;
 
 
 import com.dxy.artemis.dao.pojo.Product;
+import com.dxy.artemis.pirlo.batch.Hello;
 import com.dxy.artemis.service.ProductService;
 import com.dxy.artemis.utils.DateUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.Date;
 import java.util.List;
@@ -20,8 +22,10 @@ public class ProductController {
     ProductService productService;
 
     @RequestMapping(value = "/index")
+    @ResponseBody
     public void index() {
-
+        Hello hello = new Hello();
+        hello.say("xiaoyu");
     }
 
     @RequestMapping(value = "/list")

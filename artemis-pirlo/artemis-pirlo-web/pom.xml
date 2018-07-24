@@ -28,6 +28,11 @@
     <dependencies>
         <dependency>
             <groupId>com.dxy.artemis</groupId>
+            <artifactId>artemis-pirlo-batch</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.dxy.artemis</groupId>
             <artifactId>artemis-pirlo-service</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
