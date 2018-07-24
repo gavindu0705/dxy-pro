@@ -3,6 +3,7 @@ package com.dxy.artemis.controllers;
 
 import com.dxy.artemis.dao.pojo.Product;
 import com.dxy.artemis.pirlo.batch.Hello;
+import com.dxy.artemis.pirlo.batch.Hello2;
 import com.dxy.artemis.service.ProductService;
 import com.dxy.artemis.utils.DateUtil;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,6 +27,9 @@ public class ProductController {
     public void index() {
         Hello hello = new Hello();
         hello.say("xiaoyu");
+
+        Hello2 hello2 = new Hello2();
+        hello2.say2("xiaoyu22222");
     }
 
     @RequestMapping(value = "/list")

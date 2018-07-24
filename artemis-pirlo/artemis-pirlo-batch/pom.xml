@@ -14,7 +14,7 @@
 
     <properties>
         <!--在这里控制groovy 版本  -->
-        <groovy.version>2.5.1</groovy.version>
+        <groovy.version>2.5.0</groovy.version>
         <project.build.sourceEncoding>utf8</project.build.sourceEncoding>
     </properties>
 
