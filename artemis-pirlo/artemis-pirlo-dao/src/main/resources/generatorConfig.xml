@@ -5,7 +5,7 @@
 
 <generatorConfiguration>
     <!--mysql 连接数据库jar 这里选择自己本地位置-->
-    <classPathEntry location="src/main/resources/mysql-connector-java-5.1.46.jar"/>
+    <classPathEntry location="../mysql-connector-java-5.1.46.jar"/>
     <context id="testTables" targetRuntime="MyBatis3">
         <commentGenerator>
             <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
@@ -43,6 +43,6 @@
         </javaClientGenerator>
 
         <!-- 指定数据库表 -->
-        <table schema="mount" tableName="product"></table>
+        <table schema="artemis" tableName="shop"></table>
     </context>
 </generatorConfiguration>
